@@ -4,6 +4,9 @@ This is a simple implementation of the classic Tic Tac Toe game in HTML, CSS, an
 
 ![image](https://github.com/itsbluepabo/tic_tac_tao/assets/108151299/fd9bde65-f558-42aa-8365-7d98814ae4f8)
 
+![image](https://github.com/itsbluepabo/tic_tac_tao/assets/108151299/295a1d7e-fa19-4325-882b-8e21fd25aa42)
+
+
 ## Features
 
 - Play Tic Tac Toe against another player.
