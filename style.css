@@ -1,0 +1,115 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #4168cd , #061335);/**/;
+ 
+}
+
+.head {
+    text-align: center;
+    color: #f1f1f1;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 20px;
+    justify-content: center;
+    color: #ffffff;   
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    background-color: rgb(24, 24, 53);
+    cursor: pointer;
+    font-family: 'Skranji';
+}
+
+.state{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.state h1 {
+    color: #ffffff;
+    padding: 40px;
+}
+
+.state button{
+        
+        width: 220px;
+        height: 50px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background: rgb(24, 24, 53);
+        cursor: pointer;
+        font-size: 20px;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+    
+}/*
+.state button:before {
+    content: '';
+    background: linear-gradient(45deg, #ffffff, #fefefe, #ffffff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.state button:active {
+    color: #ffffff
+}
+
+.state button:active:after {
+    background: transparent;
+}
+
+.state button:hover:before {
+    opacity: 1;
+}
+
+.state button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:  rgb(24, 24, 53);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}*/
